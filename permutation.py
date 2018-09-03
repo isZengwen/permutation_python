@@ -6,4 +6,5 @@ def pr(n):
             count += 1
             print(i)
     print("The number is :{}".format(count))
-pr(2)
+if __name__ == '__main__':
+    pr(2)
